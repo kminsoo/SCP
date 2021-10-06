@@ -14,6 +14,7 @@ tar -xvzf cifar-10-python.tar.gz
 mkdir data
 mkdir ./data/cifar10
 mv cifar-10-batches-py/* ./data/cifar10
+rm -r cifar-10-batches-py
 ```
 #### 3. Experiment
 You can test baseline with several networks as following command:
