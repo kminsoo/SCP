@@ -7,17 +7,14 @@ The algorithm is tested on Ubuntu 16.04.
 
 
 #### 2. CIFAR-10 Dataset Download
-If you already have CIFAR-10 dataset, please change the location as follows:
-```bash
-mv "your CIFAR-10 directory location" ./data
-mv ./data/* ./data/cifar10
-```
-Otherwise, you can download it as follows:
+You can download it as follows:
 ```bash
 wget -c https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 tar -xvzf cifar-10-python.tar.gz
-mv cifar-10-batches-py ./data
-mv ./data/* ./data/cifar10
+mkdir data
+mkdir ./data/cifar10
+mv cifar-10-batches-py/* ./data/cifar10
+rm -r cifar-10-batches-py
 ```
 #### 3. Experiment
 You can test baseline with several networks as following command:
