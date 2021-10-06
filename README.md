@@ -59,7 +59,7 @@ Also, you can prune 90% channels in a network by changing 0.8 into 0.9.
 ### Citation
 ```
 @inproceedings{kang2020operation,
-  title="{Operation-Aware Soft Channel Pruning using Differentiable Masks}",
+  title={Operation-Aware Soft Channel Pruning using Differentiable Masks},
   author={Kang, Minsoo and Han, Bohyung},
   booktitle={ICML},
   year={2020},
