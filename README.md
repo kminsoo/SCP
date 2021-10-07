@@ -57,6 +57,7 @@ If you want to run other networks, you just replace "DenseNet" with "VggNet19" a
 Also, you can prune 90% channels in a network by changing 0.8 into 0.9.
 
 ### Citation
+If you use this code, please cite our paper.
 ```
 @inproceedings{kang2020operation,
   title="{Operation-Aware Soft Channel Pruning using Differentiable Masks}",
